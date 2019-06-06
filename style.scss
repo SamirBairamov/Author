@@ -1,0 +1,171 @@
+@import "CSS/owl.theme.default.css";
+@import "CSS/owl.carousel.css";
+
+//.container{
+//  .row{
+//    div{
+//      background-color: yellow;
+//      &:nth-child(2n){
+//        background-color: green;
+//      }
+//      &:nth-child(3n){
+//        background-color: red;
+//      }
+//    }
+//  }
+//}
+.navbar-collapse.collapse{
+  min-width: 768px;
+  display: block;
+  height: 100px !important;
+  padding: 26px 0 44px 0;
+  overflow: visible ;
+}
+.navbar-brand img{
+  padding-top: 15px;
+}
+
+.owl-carousel .item {
+  position: relative;
+
+  .text_banner {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 80px;
+
+    div {
+      font-size: 23px;
+      margin-top: 35px;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    h1 {
+      display: inline-block;
+      padding: 0 43px;
+      line-height: 57px;
+      color: white;
+      font-weight: lighter;
+      font-size: 63px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    button {
+      width: 100%;
+      max-width: 226px;
+      line-height: 60px;
+      font-size: 26px;
+      border: solid 3px white;
+      border-radius: 5px;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 50px;
+      background-color: transparent;
+      color: white;
+    }
+  }
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+  background-color: white;
+}
+
+//.owl-carousel .owl-nav button.owl-prev {
+//  position: absolute;
+//  top: 48%;
+//  left: 29px;
+//  display: inline-block;
+//  width: 40px;
+//  height: 40px;
+//  border: solid 1px $main_color;
+//  border-radius: 20px;
+//  content: "\003C";
+//  color: $main_color;
+//}
+//
+//.owl-carousel .owl-nav button.owl-next {
+//  position: absolute;
+//  top: 48%;
+//  right: 29px;
+//  display: inline-block;
+//  width: 40px;
+//  height: 40px;
+//  border: solid 1px $main_color;
+//  border-radius: 20px;
+//  content: "\003E";
+//  color: $main_color;
+//}
+
+
+
+
+
+.speakers{
+  padding-top: 104px;
+  padding-bottom: 115px;
+  text-align: center;
+  h2{
+    font-size: 42px;
+    color: #4e525d;
+    line-height: 42px;
+    margin-bottom: 42px;
+  }
+  .foto{
+    width: 201px;
+    height: 201px;
+    background-color: #eeeef0;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    &:after{
+      content: "+";
+      font-size: 42px;
+      font-weight: bold;
+      color: red;
+      display: inline-block;
+      position: absolute;
+      top: -74px;
+      left: 90px;
+      transition: 0.4s;
+    }
+    &:hover{
+      &:after{
+        top: 74px;
+       transform:  rotate(360deg);
+      }
+    }
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+}
+.cupon {
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  ul{
+    list-style: none;
+    width: 100%;
+    border-bottom: solid 1px #cccccc;
+    text-align: center;
+    li {
+      border-bottom: solid 1px #cccccc;
+      line-height: 45px;
+      width: 100%;
+
+      &:first-of-type {
+        background-color: #485460;
+        color: white;
+      }
+    }
+    li:nth-child(2){
+      background-color: #f8f9fb;
+      color: #2b669a;
+    }
+  }
+}
+
+
+
