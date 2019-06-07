@@ -164,8 +164,31 @@
       background-color: #f8f9fb;
       color: #2b669a;
     }
+    a:last-of-type{
+      background-color:#2b669a;
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      padding: 10px 54px 10px 54px;
+      border-radius: 10px;
+
+    }
   }
 }
+div .col-md-4:nth-child(2){
+  ul{
+    li:first-of-type {
+      background-color: #49cbcd;
+      color: #2b669a;
+      border-bottom: none;
+    }
+    a:last-of-type{
+      background-color:#49cbcd;
+
+    }
+  }
+}
+
 
 
 
